@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url(../css/bootstrap.min.css);
+@import url(../css/reponsive.css);
+
+body{
+  background-color: white !important;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+/*TITLE PRINCIAPL */
+
+main .bg-fundo{
+  background-image: url(../imagens/spaceAstronaut.jpg);
+  background-size: cover;
+  height: 100%;
+}
+main .bg-fundo h1{
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+  text-align: center;
+  letter-spacing: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  user-select: none;
+}
+main .sub-titulo p{
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  color: white;
+  font-size: 1.6vw ;
+  user-select: none;
+}
+main .sub-titulo p::before{
+  content: '';
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: white;
+}
+/*TITLE PRINCIPAL FIM */
+
+.content-rows{
+  margin: 2vw;
+  padding-left: 0vh;
+  padding-right: 0vh;
+  border-radius: 2%; 
+}
+
+.content-menu{
+  margin: 2vw;
+  padding-left: 0vh;
+  padding-right: 0vh;
+  border-radius: 4%;  
+}
+
+
+.imagem-content{
+  width: 100%;
+  user-select: none;
+  padding-left: 0vw;
+  height: 30vh;
+}
+
+.stlize-main{
+  background-color: #212529;
+}
+
+.content-rows{
+  border-radius: 3%;
+}
+
+
+.imagem{
+  width: 60%;
+  border-radius: 0px !important ;
+  user-select: none;
+  padding-left: 0vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+
+.button-stylize{
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.styles-contents{
+  padding: 10px;
+  box-sizing: content-box;
+  box-shadow: 0 0 1em rgb(22, 21, 21);
+  margin: 10px;
+  text-decoration: none !important;
+}
+
+.styles-contents:hover{
+  background-color: #1d252c;
+}
+
+.pg-a{
+  text-decoration: none !important;
+}
+
+.text-paragrafo{
+  width: 100%;
+  padding: 2%;
+  font-size: 1.2vw;
+  text-align: center;
+  color:white ;
+  text-decoration: none !important;
+}
+
+.texto-central-conteudos{
+  font-family: 'Noto Serif', serif;
+  font-weight: 900;
+  font-size: 9vw;
+  padding: 10vh;
+  user-select: none;
+}
+
+.svg-center{
+  margin: 10px auto;
+}
+.svg-center1{
+  margin: 10px auto
+}
+
+.collapse-content{
+  margin-top: 10%;
+}
+
+.styles-contents:hover{
+  background-color: #2d3135;;
+}
+
+
+.accordion-body {
+  padding: 1rem 1.25rem;
+  color: white;
+  background-color: #1d2125;
+  border: 2px solid #00000042;
+  border-radius: 5px;
+}
+
+
+.accordion-button{
+  background-color: #212529 !important;
+  color: white;
+  text-decoration: none !important;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #e7f1ff;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #42454b;
+  outline: none;
+  padding: 30px;
+  box-shadow:none;
+}
+
+.accordion-body {
+  padding: 1rem 1.25rem;
+  color: white;
+}
+
+.accordion-button.collapsed {
+  border-bottom-width: 0;
+  padding: 30px;
+}
+
+.sobre{
+  background-color: #1d252c;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+  .seta{
+    border-color: #212529 !important;
+    border-right: 0.2px;
+    height: 6vh;
+    font-size: 12vw;
+    border-style: solid;
+    border-left: 0px !important ;
+    border-top: 0px !important ;
+    border-bottom: 0px !important ;
+  }
+
+  .icon-bt{
+    margin-top: 20px;
+  }
+
+  .centralizando-img{
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .bg-cor{
+    background-color: #212529;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+ .pagination dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+a.page-link{
+  background-color: #212529;
+  border-color: #6a6d70;
+  color: white;
+  text-decoration: none;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #505050;
+  border-color: #686868;
+}
+
+.texto::before{
+  content: '';
+  width: 100px;
+  height: 1px;
+  margin: 20px auto; 
+  display: block;
+  background-color: white;
+}
+
+.nav-item  a img{
+  color: white;
+}

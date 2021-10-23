@@ -1,0 +1,43 @@
+@media  (max-width: 1210px)   { 
+
+  .imagem{
+    width: 100% !important;
+  }
+  .styles-contents{
+    width: 35vw;
+    height: 65vh;
+  }
+
+
+  @media (max-width: 526px) {
+    
+    .page-link {
+      padding: 1vw 1vw !important ;
+  }
+  }
+
+}
+
+@media (max-width: 575.98px) { 
+  .col-lg-5{
+    flex:0 0 auto;
+    width:50%}
+    }
+
+@media (max-width: 1210px) { 
+    .pg-arrumando{
+        display: block !important;
+    }
+    .imagem{
+      width: 100% !important;
+    }
+ }
+
+@media (max-width: 1245px) {
+    .text-paragrafo{
+        font-size: 10pt !important;
+        padding: 2%;
+
+      }
+    
+  }

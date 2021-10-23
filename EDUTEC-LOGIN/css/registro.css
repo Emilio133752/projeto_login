@@ -1,0 +1,14 @@
+.container-form input[type=submit]{
+  padding: 15px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.container-form h2{
+  margin-top: -20px;
+  font-size: 9pt;  
+}
+
+.resultado{
+  margin: 20px auto;
+}
